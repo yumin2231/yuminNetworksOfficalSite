@@ -1,0 +1,28 @@
+.main_vd{
+    max-width: 80%;
+    background-color: #ffffff;
+    border-radius: 8px;
+    margin: 2rem auto;
+    border: solid 3px #000000
+}
+.player{
+    background-color: #7F7F7F;
+    margin: 0 auto;
+    text-align: center;
+    width: 640px;
+    height: 360px;
+    border: solid 3px #ffe699
+}
+@media only screen and (max-width: 767px) {
+    header img{
+        width: 300px;
+    }
+    .player{
+        width: 320px;
+        height: 180px;
+    }
+    .player iframe{
+        width: 320px;
+        height: 180px;
+    }
+}

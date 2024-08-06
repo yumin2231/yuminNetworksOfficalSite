@@ -1,0 +1,153 @@
+body,html{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-image: url("https://www.yql.jp/imges/Background.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    font-family: sans-serif;
+}
+header{
+    background-color: #ffffff;
+    width: 100%;
+    margin: 0;
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+.unline{
+    text-decoration: underline;
+}
+header a,.ulnone,.sp-header a{
+    text-decoration: none;
+    color: #000000;
+}
+.header{
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+.header-nav {
+    margin-left: auto;
+}
+header ul{
+    display: flex;
+}
+header li {
+    list-style-type: none;
+}
+header li + li {
+    margin-left: 40px;
+}
+.main_content{
+    width: 80%;
+    margin: 2rem auto;
+    background-color: #ffffff;
+    border-radius: 8px;
+    border: solid 3px #000000
+}
+.center{
+    text-align: center;
+}
+.sns{
+    border-radius: 8px;
+    background-color: #ffffff;
+    width: 400px;
+    margin: 0 auto;
+    border: solid 3px #000000
+}
+.accounts{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.accounts>* {
+    padding: 1em;
+    border-radius: .5em;
+}
+.accounts>*:hover {
+    background-color: #80808080;
+}
+.accounts img {
+    width: 5em;
+}
+.btns{
+    text-align: center;
+}
+.btn {
+    background-color: #00c3ff;
+    color: #000000;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.yt_sam{
+    margin: 0 auto;
+    text-align: center;
+    width: 640px;
+    height: 360px;
+    border: solid 3px #ffe699
+}
+.yt_sam img{
+    width: 640px;
+    height: 360px;
+    
+    user-select: none;
+}
+.w850{
+    margin: 0 auto;
+    width: 850px;
+}
+.yns_ab{
+    color: #000000;
+    text-decoration: underline;
+}
+.url{
+    display: flex;
+    align-items: center;
+}
+.blue{
+    color: #01B0F1;
+}
+.yellow{
+    color: #FFE699;
+}
+.gray{
+    color: #7F7F7F;
+}
+.block,.sp-header{
+    display: none;
+}
+@media (max-width: 430px){
+    .online,.header,.none,.sns,.yt_sam{
+        display: none;
+    }
+    .block,.sp-header{
+        display: block;
+    }
+    .sp-header{
+        width: 100%;
+        background-color: #ffffff;
+    }
+    .main,.w850{
+        width: 80%;
+    }
+    .main_vd{
+        width: 100%;
+    }
+}
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #FFE699;
+    border-radius: 8px;
+    border: solid 3px #000000
+}

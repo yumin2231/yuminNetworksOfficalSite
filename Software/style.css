@@ -1,0 +1,11 @@
+.main_soft{
+    text-align: center;
+    max-width: 80%;
+    background-color: #ffffff;
+    border-radius: 8px;
+    margin: 2rem auto;
+    border: solid 3px #000000
+}
+h2,h4{
+    margin: 0;
+}

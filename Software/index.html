@@ -32,13 +32,13 @@
                         <a href="../index.html">ホーム</a>
                     </li>
                     <li>
-                        <a href="index.html">最新投稿</a>
+                        <a href="../NewVideo/index.html">最新投稿</a>
                     </li>
                     <li>
                         <a href="../discord/index.html">Discord</a>
                     </li>
                     <li>
-                      <a class="unline" href="../Software/index.html">使用ソフト</a>
+                      <a class="unline" href="index.html">使用ソフト</a>
                     </li>
                 </ul>
             </nav>
@@ -52,7 +52,7 @@
     </div>
     <div class="main_soft">
         <h1>使用ソフト一覧</h1>
-        <h4>※このサイトに記載されているソフトウェア・サイト等はyuminの配信画面上にあるものです。<br>※このサイトに添付されている画像上に表示されている情報は現在のものではありません。</h4>
+        <h4>※このサイトに記載されているソフトウェア・サイト等はyuminの配信画面上にあるものです。<br>※このページに添付されている画像上に表示されている情報は現在のものではありません。<br>2025年11月09日更新</h4>
 
         <!--Quarog-->
         <h2>Quarog</h2>
@@ -61,23 +61,6 @@
         <br>
         <a href="https://fuku1213.github.io/quarog-site/download.html" class="btn" target="_blank">配布元</a>
 
-        <!--ClockforFuku-->
-        <h2>ClockforFuku</h2>
-        <h4>Fuku1213様</h4>
-        <img src="../imges/Software/ClockforFuku.png">
-        <br>
-        <span class="btn">配布元</span>
-        <br><h4>※現在配布を中止しています。</h4>
-
-        <!--MyStateViewer-->
-        <h2>MyStateViewer</h2>
-        <h4>れんちょん様</h4>
-        <img src="../imges/Software/MyStateViewer.png">
-        <br>
-        <span class="btn">配布元</span>
-        <br>
-        <h4>※現在は配布されていません。</h4>
-
         <!--RQinfoYQL-->
         <h2>RealtimeQuake info for yuminQuakelive</h2>
         <h4>MiyakojimaCam様</h4>
@@ -85,32 +68,12 @@
         <br>
         <a class="btn" href="https://nanka.cloudfree.jp/quake/#RealtimeQuakeInfo" target="_blank">詳細</a>
 
-        <!--EarthQuickly-->
-        <h2>EarthQuickly</h2>
-        <h4>あめうま様</h4>
-        <img src="../imges/Software/EarthQuickly.png" width="640" height="360">
-        <br>
-        <a href="https://ameuma773.github.io/EarthQuickly/" class="btn" target="_blank">配布元</a>
-
-        <!--LEDNEWS-->
-        <h2>電光ニュース</h2>
-        <h4>JurakuSoftware様</h4>
-        <img src="../imges/Software/LEDNEWS.png" width="640">
-        <br>
-        <a class="btn" href="https://www.vector.co.jp/download/file/winnt/net/fh732013.html">配布元</a>
-
         <!--WorldQuakeViewer-->
         <h2>WorldQuakeViewer</h2>
         <h4>いちはい様</h4>
         <img src="../imges/Software/WorldQuakeViewer.png" width="640">
         <br>
         <a class="btn" href="https://discord.com/invite/7dBFWKjgGa" target="_blank">デバッグサーバー</a>
-
-        <h2>特務機関NERV - Mastodon</h2>
-        <h4>ゲヒルン株式会社様</h4>
-        <iframe allowfullscreen sandbox="allow-top-navigation allow-scripts allow-popups allow-popups-to-escape-sandbox" width="1000" height="790" src="https://www.mastofeed.com/apiv2/feed?userurl=https%3A%2F%2Funnerv.jp%2Fusers%2FUN_NERV&theme=dark&size=100&header=true&replies=false&boosts=false"></iframe>
-        <br>
-        <a class="btn" href="https://unnerv.jp/@UN_NERV" target="_blank">@UN_NERV</a>
     </div>
     <footer class="footer">
         <div class="md-flex md-justify-between">
@@ -147,7 +110,7 @@
         </div>
         <hr />
         <div class="md-flex md-justify-between">
-          <p class="copyright">&copy;2022 - 2024 yuminQuakelive. <br class="block"> All Rights Reserved. <br class="block"><br>&copy;2023 - 2024 yuminNetworks<span class="none"> - </span>EarthQuakeLiveService.</p>
+          <p class="copyright">&copy;2022 - <span id="cr"></span> yuminQuakelive. <br class="block"> All Rights Reserved. <br class="block"><br>&copy;2023 - <span id="grcr"></span> yuminNetworks<span class="none"> - </span>EarthQuakeLiveService.</p>
           <div class="footer__social">
             <a href="https://twitter.com/yuminNetworks" target="_blank">
               <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -157,5 +120,6 @@
           </div>
         </div>
       </footer>
+      <script src="https://www.yql.jp/scripts/copy.js"></script>
 </body>
 </html>
